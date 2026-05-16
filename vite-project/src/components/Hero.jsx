@@ -34,14 +34,14 @@ const TypingHeading = React.memo(() => {
     </h1>
   );
 })
-// 🧍 Static section (stays fixed under the heading)
+// Static section (stays fixed under the heading)
 const StaticHeroText = React.memo(() => (
   <div 
-    // Responsive padding to adapt layout on all devices
+
     className="text-center mt-6 relative z-10 fade-up px-4 sm:px-6 md:px-12 lg:px-24"
   >
     <p 
-      // Keeps the paragraph visible without hiding text
+   
       className="text-base sm:text-lg md:text-xl font-light italic leading-relaxed drop-shadow-md text-white "
     >
       Together, we stand against cancer — inspiring courage, compassion, and change.
